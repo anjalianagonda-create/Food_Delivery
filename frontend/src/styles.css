@@ -1,0 +1,2 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,500&display=swap');
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:'DM Sans',Arial,sans-serif;color:#252522;background:#fff}button,input,textarea{font-family:inherit}button,a{-webkit-tap-highlight-color:transparent}::selection{background:#ffd9ca;color:#392016}
