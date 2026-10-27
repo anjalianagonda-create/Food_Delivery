@@ -4,6 +4,5 @@ import { provideRouter } from '@angular/router';
 import { AppComponent } from './app/app.component';
 import { routes } from './app/app.routes';
 
-bootstrapApplication(AppComponent, {
-  providers: [provideHttpClient(), provideRouter(routes)]
-}).catch((err) => console.error(err));
+bootstrapApplication(AppComponent, { providers: [provideHttpClient(), provideRouter(routes)] })
+  .catch((error) => console.error('Angular failed to start:', error));
